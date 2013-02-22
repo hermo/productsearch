@@ -1,0 +1,52 @@
+body {
+    padding: 2em;
+}
+
+#ProductSearch .controls {
+    width: 550px;
+}
+
+#ProductSearch .controls input[type="text"],
+#ProductSearch .controls .search-button {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    width: 150px;
+    border: none;
+}
+
+#ProductSearch .controls input[type="text"] {
+    background-color: #eee;
+}
+
+#ProductSearch .controls .search-button:hover {
+    background-color: #999;
+
+}
+
+#ProductSearch .results .product-row {
+    padding: 0.5em;
+}
+
+#ProductSearch .results .product-row:nth-child(even) {
+    background-color: #eee;
+}
+
+#ProductSearch .results .product-row span {
+    display: inline-block;
+}
+
+#ProductSearch .results .product-row .id {
+    width: 5em;
+}
+
+#ProductSearch .results .product-row .descr {
+    width: 50em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#ProductSearch .results .product-row .price {
+    margin-left: 1em;
+    width: 6em;
+}
